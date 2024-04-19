@@ -1,0 +1,338 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+.logo h3 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 3rem;
+  color: #030321;
+}
+.home {
+  background: linear-gradient(
+    45deg,
+    rgba(245, 70, 66, 0.75),
+    rgba(8, 83, 156, 0.75)
+  );
+  min-height: 100vh;
+}
+.user-login-button .symbol {
+  display: none;
+}
+
+.warning img {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 460px) {
+  .user-login-button .symbol {
+    display: block;
+  }
+  .user-login-button .word {
+    display: none;
+  }
+}
+marquee p {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.carousel img {
+  width: 100%;
+  height: 50vh;
+}
+.carousel h5 {
+  font-weight: bold;
+  color: #5b4104;
+  font-size: 5rem;
+}
+.line1,
+.line2 {
+  background-color: #fff;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.services {
+  background-color: #c7b8b7;
+  padding: 1rem;
+}
+.content li {
+  color: #5b5656;
+  padding: 0.3rem;
+}
+.content h3 {
+  font-size: 1.3rem;
+}
+.line1:hover,
+.line2:hover {
+  background-color: #f01707;
+  color: #fff;
+}
+.content li:hover {
+  color: #fff;
+}
+.services h2 {
+  margin-bottom: 2rem;
+}
+.services .row {
+  margin-top: 2rem;
+}
+.heading h2 {
+  text-align: center;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+.icons i {
+  font-size: 2rem;
+  color: #050505;
+}
+.icons i:hover {
+  color: #fff;
+}
+.copyright {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.user-login,
+.admin-login,
+.reset-page,
+.transfermoney,
+.deposit,
+.withdraw {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: linear-gradient(
+    45deg,
+    rgba(245, 70, 66, 0.75),
+    rgba(8, 83, 156, 0.75)
+  );
+  flex-direction: column;
+}
+.user-form,
+.admin-form,
+.changepassword-form,
+.transfer-form,
+.deposit-form,
+.withdraw-form {
+  background-color: #e5d8d7;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.user-form i,
+.admin-form i {
+  background-color: #f01707;
+  border-radius: 100%;
+  font-size: 1.3rem;
+  padding: 0.1rem;
+  position: relative;
+  right: 0;
+  left: 100%;
+  cursor: pointer;
+  bottom: 5%;
+}
+.user-form i:hover,
+.admin-form i:hover {
+  background-color: #030321;
+  color: #f01707;
+}
+.login-btn,
+.signup-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.link a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+.link a:hover {
+  background-color: #050505;
+}
+.imp {
+  color: #f01707;
+}
+.reset-password {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    45deg,
+    rgba(245, 70, 66, 0.75),
+    rgba(8, 83, 156, 0.75)
+  );
+}
+.reset-form {
+  background-color: #c7b8b7;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.view-transactions {
+  color: #050505;
+}
+.view-transactions:hover {
+  background-color: #030321;
+  color: #fff;
+}
+.accounts {
+  background: linear-gradient(
+      45deg,
+      rgba(245, 70, 66, 0.75),
+      rgba(8, 83, 156, 0.75)
+    ),
+    url("/assets/logo.png");
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 700px) {
+  table tr,
+  table td,
+  table th {
+    display: block;
+    font-size: 1rem;
+  }
+}
+.navbar {
+  background-color: #0b0b0b !important;
+}
+.pwd-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.transactions {
+  width: 100%;
+  min-height: 100vh;
+}
+.transaction-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: auto;
+  width: fit-content;
+}
+.transaction-form label {
+  font-weight: bold;
+  color: #fff;
+}
+@media (max-width: 500px) {
+  .transaction-form {
+    text-align: center;
+    width: auto;
+  }
+}
+.transaction-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media print {
+  .navbar,
+  .transaction-footer,
+  .footer {
+    display: none;
+  }
+  .transactions {
+    min-height: fit-content;
+  }
+  .accounts {
+    min-height: fit-content;
+  }
+}
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c8dbad;
+}
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+.alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 5000;
+  font-weight: bold;
+}
+.adminsection {
+  width: 100%;
+  min-height: 100vh;
+}
+.adminsection {
+  background: linear-gradient(
+      45deg,
+      rgba(245, 70, 66, 0.75),
+      rgba(8, 83, 156, 0.75)
+    ),
+    url("/assets/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  min-height: 100vh;
+}
+.search-form {
+  padding-top: 5rem;
+}
+.account-data,
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  padding: 1rem;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
